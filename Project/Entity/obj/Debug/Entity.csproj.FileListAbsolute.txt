@@ -1,0 +1,9 @@
+C:\Users\wenjun.zhang\Desktop\土豆购物\FineUI_v4.1.6_source_all\FineUI_v4.1.6_source_all\Entity\bin\Debug\Entity.dll
+C:\Users\wenjun.zhang\Desktop\土豆购物\FineUI_v4.1.6_source_all\FineUI_v4.1.6_source_all\Entity\bin\Debug\Entity.pdb
+C:\Users\wenjun.zhang\Desktop\土豆购物\FineUI_v4.1.6_source_all\FineUI_v4.1.6_source_all\Entity\obj\Debug\Entity.dll
+C:\Users\wenjun.zhang\Desktop\土豆购物\FineUI_v4.1.6_source_all\FineUI_v4.1.6_source_all\Entity\obj\Debug\Entity.pdb
+D:\BaiduYunDownload\2.6\电子商城\Entity\bin\Debug\Entity.dll
+D:\BaiduYunDownload\2.6\电子商城\Entity\bin\Debug\Entity.pdb
+D:\BaiduYunDownload\2.6\电子商城\Entity\obj\Debug\Entity.csprojResolveAssemblyReference.cache
+D:\BaiduYunDownload\2.6\电子商城\Entity\obj\Debug\Entity.dll
+D:\BaiduYunDownload\2.6\电子商城\Entity\obj\Debug\Entity.pdb
