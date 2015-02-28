@@ -1,0 +1,14 @@
+C:\Users\wenjun.zhang\Desktop\EShop\DBUtility\bin\Debug\Maticsoft.DBUtility.dll
+C:\Users\wenjun.zhang\Desktop\EShop\DBUtility\bin\Debug\Maticsoft.DBUtility.pdb
+C:\Users\wenjun.zhang\Desktop\EShop\DBUtility\bin\Debug\MySql.Data.dll
+C:\Users\wenjun.zhang\Desktop\EShop\DBUtility\bin\Debug\System.Data.SQLite.DLL
+C:\Users\wenjun.zhang\Desktop\EShop\DBUtility\obj\Debug\DBUtility.csprojResolveAssemblyReference.cache
+C:\Users\wenjun.zhang\Desktop\EShop\DBUtility\obj\Debug\Maticsoft.DBUtility.dll
+C:\Users\wenjun.zhang\Desktop\EShop\DBUtility\obj\Debug\Maticsoft.DBUtility.pdb
+C:\Users\wenjun.zhang\Desktop\土豆购物\FineUI_v4.1.6_source_all\FineUI_v4.1.6_source_all\DBUtility\bin\Debug\Maticsoft.DBUtility.dll
+C:\Users\wenjun.zhang\Desktop\土豆购物\FineUI_v4.1.6_source_all\FineUI_v4.1.6_source_all\DBUtility\bin\Debug\Maticsoft.DBUtility.pdb
+C:\Users\wenjun.zhang\Desktop\土豆购物\FineUI_v4.1.6_source_all\FineUI_v4.1.6_source_all\DBUtility\obj\Debug\DBUtility.csprojResolveAssemblyReference.cache
+C:\Users\wenjun.zhang\Desktop\土豆购物\FineUI_v4.1.6_source_all\FineUI_v4.1.6_source_all\DBUtility\obj\Debug\Maticsoft.DBUtility.dll
+C:\Users\wenjun.zhang\Desktop\土豆购物\FineUI_v4.1.6_source_all\FineUI_v4.1.6_source_all\DBUtility\obj\Debug\Maticsoft.DBUtility.pdb
+C:\Users\wenjun.zhang\Desktop\土豆购物\FineUI_v4.1.6_source_all\FineUI_v4.1.6_source_all\DBUtility\bin\Debug\MySql.Data.dll
+C:\Users\wenjun.zhang\Desktop\土豆购物\FineUI_v4.1.6_source_all\FineUI_v4.1.6_source_all\DBUtility\bin\Debug\System.Data.SQLite.DLL
