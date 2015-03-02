@@ -45,7 +45,12 @@ namespace EShop
                                                             , new SqlParameter("@UserId", loginID)
                                                             , new SqlParameter("@Start",(PageNum - 1) * size + 1)
                                                             , new SqlParameter("@End",PageNum*size));
-                var data = new { Products = products.Rows,PageData = pageData,PageNum = PageNum,PageCount = pagecount };
+                decimal money = Convert.ToDecimal(SqlHelper.ExecuteScalar(@"select SUM(s.Price) from(
+                                                                       select c.Userid as UserID, Quantity,ProName,Price,Img ,ROW_NUMBER() over (order by p.ProID asc) as num
+                                                                       from t_Cart c left join T_Products p on c.ProID=p.ProID )as s  
+                                                                       where  UserID= @UserId", new SqlParameter("@UserId", loginID))
+                                                   );
+                var data = new { Products = products.Rows,PageData = pageData,PageNum = PageNum,PageCount = pagecount,Money = money };
                 string html = CommandHelper.RenderHtml("Front/ShoppingCart.html", data);
                 context.Response.Write(html);
 
