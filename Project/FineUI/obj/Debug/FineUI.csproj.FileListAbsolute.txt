@@ -10,3 +10,7 @@ C:\Users\wenjun.zhang\Desktop\土豆购物\FineUI_v4.1.6_source_all\FineUI_v4.1.
 C:\Users\wenjun.zhang\Desktop\土豆购物\FineUI_v4.1.6_source_all\FineUI_v4.1.6_source_all\FineUI\obj\Debug\FineUI.csprojResolveAssemblyReference.cache
 C:\Users\wenjun.zhang\Desktop\土豆购物\FineUI_v4.1.6_source_all\FineUI_v4.1.6_source_all\FineUI\obj\Debug\FineUI.dll
 C:\Users\wenjun.zhang\Desktop\土豆购物\FineUI_v4.1.6_source_all\FineUI_v4.1.6_source_all\FineUI\obj\Debug\FineUI.pdb
+E:\Formal\Project\FineUI\bin\Debug\FineUI.dll
+E:\Formal\Project\FineUI\bin\Debug\FineUI.pdb
+E:\Formal\Project\FineUI\obj\Debug\FineUI.dll
+E:\Formal\Project\FineUI\obj\Debug\FineUI.pdb

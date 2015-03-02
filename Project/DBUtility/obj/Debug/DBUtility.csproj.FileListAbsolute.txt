@@ -12,3 +12,9 @@ C:\Users\wenjun.zhang\Desktop\土豆购物\FineUI_v4.1.6_source_all\FineUI_v4.1.
 C:\Users\wenjun.zhang\Desktop\土豆购物\FineUI_v4.1.6_source_all\FineUI_v4.1.6_source_all\DBUtility\obj\Debug\Maticsoft.DBUtility.pdb
 C:\Users\wenjun.zhang\Desktop\土豆购物\FineUI_v4.1.6_source_all\FineUI_v4.1.6_source_all\DBUtility\bin\Debug\MySql.Data.dll
 C:\Users\wenjun.zhang\Desktop\土豆购物\FineUI_v4.1.6_source_all\FineUI_v4.1.6_source_all\DBUtility\bin\Debug\System.Data.SQLite.DLL
+E:\Formal\Project\DBUtility\bin\Debug\Maticsoft.DBUtility.dll
+E:\Formal\Project\DBUtility\bin\Debug\Maticsoft.DBUtility.pdb
+E:\Formal\Project\DBUtility\bin\Debug\MySql.Data.dll
+E:\Formal\Project\DBUtility\bin\Debug\System.Data.SQLite.DLL
+E:\Formal\Project\DBUtility\obj\Debug\Maticsoft.DBUtility.dll
+E:\Formal\Project\DBUtility\obj\Debug\Maticsoft.DBUtility.pdb
