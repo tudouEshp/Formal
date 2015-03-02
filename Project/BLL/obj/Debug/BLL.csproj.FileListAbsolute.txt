@@ -26,3 +26,17 @@ D:\BaiduYunDownload\2.6\电子商城\BLL\bin\Debug\Entity.pdb
 D:\BaiduYunDownload\2.6\电子商城\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
 D:\BaiduYunDownload\2.6\电子商城\BLL\obj\Debug\BLL.dll
 D:\BaiduYunDownload\2.6\电子商城\BLL\obj\Debug\BLL.pdb
+E:\Formal\Project\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+E:\Formal\Project\BLL\obj\Debug\BLL.dll
+E:\Formal\Project\BLL\obj\Debug\BLL.pdb
+E:\Formal\Project\BLL\bin\Debug\BLL.dll
+E:\Formal\Project\BLL\bin\Debug\BLL.pdb
+E:\Formal\Project\BLL\bin\Debug\DAL.dll
+E:\Formal\Project\BLL\bin\Debug\Entity.dll
+E:\Formal\Project\BLL\bin\Debug\Maticsoft.Common.dll
+E:\Formal\Project\BLL\bin\Debug\Maticsoft.DBUtility.dll
+E:\Formal\Project\BLL\bin\Debug\System.Data.SQLite.dll
+E:\Formal\Project\BLL\bin\Debug\MySql.Data.dll
+E:\Formal\Project\BLL\bin\Debug\DAL.pdb
+E:\Formal\Project\BLL\bin\Debug\Maticsoft.DBUtility.pdb
+E:\Formal\Project\BLL\bin\Debug\Entity.pdb
