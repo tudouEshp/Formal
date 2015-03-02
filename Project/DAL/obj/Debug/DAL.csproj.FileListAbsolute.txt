@@ -20,3 +20,14 @@ D:\BaiduYunDownload\2.6\电子商城\DAL\bin\Debug\Entity.pdb
 D:\BaiduYunDownload\2.6\电子商城\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
 D:\BaiduYunDownload\2.6\电子商城\DAL\obj\Debug\DAL.dll
 D:\BaiduYunDownload\2.6\电子商城\DAL\obj\Debug\DAL.pdb
+E:\Formal\Project\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+E:\Formal\Project\DAL\obj\Debug\DAL.dll
+E:\Formal\Project\DAL\obj\Debug\DAL.pdb
+E:\Formal\Project\DAL\bin\Debug\DAL.dll
+E:\Formal\Project\DAL\bin\Debug\DAL.pdb
+E:\Formal\Project\DAL\bin\Debug\Entity.dll
+E:\Formal\Project\DAL\bin\Debug\Maticsoft.DBUtility.dll
+E:\Formal\Project\DAL\bin\Debug\System.Data.SQLite.dll
+E:\Formal\Project\DAL\bin\Debug\MySql.Data.dll
+E:\Formal\Project\DAL\bin\Debug\Maticsoft.DBUtility.pdb
+E:\Formal\Project\DAL\bin\Debug\Entity.pdb
