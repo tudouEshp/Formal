@@ -71,7 +71,7 @@
                                   <input type="text" id="quantity" name="quantity" value="$p.Quantity" placeholder="$p.Quantity" onblur="total(this)" onkeyup="onlyNum(this)" onafterpaste="this.value=this.value.replace(/\D/g,'')"></td>
                               <td class="bg subtotal">$$total</td>
                               <td class="close"><a title="close" class="close" href="#"></a></td>
-                              <td class="edit"><a title="Edit" href="#">删除</a></td>
+                              <td class="edit"><a title="Edit" href="#" onclick="del($p.ProID);">删除</a></td>
                           </tr>
                         #end
 	                      <tr>
@@ -347,6 +347,16 @@
                 t += l[i] + ((i + 1) % 3 == 0 && (i + 1) != l.length ? "," : "");
             }
             return t.split("").reverse().join("") + "." + r;
+        }
+
+        function del(proid) {             
+            if (confirm("确定将商品移出购物车？" + proid)) {
+                alert("成功");
+                return true;
+            }
+            else {
+                return false;
+            }
         }
     </script>
 

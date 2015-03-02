@@ -39,7 +39,7 @@ namespace EShop
                     pageData[i] = new { Href = "ShoppingCart.ashx?p=" + (i + 1), Title = i + 1 };
                 }
                 DataTable products = SqlHelper.ExecuteDataTable(@"select * from (	
-                                                                select c.Userid as UserID, Quantity,ProName,Price,Img ,ROW_NUMBER() over (order by p.ProID asc) as num
+                                                                select c.Userid as UserID, c.ProID,Quantity,ProName,Price,Img ,ROW_NUMBER() over (order by p.ProID asc) as num
                                                                 from t_Cart c left join T_Products p on c.ProID=p.ProID )as s  
                                                                 where  UserID= @UserId and s.num between @Start and @End"
                                                             , new SqlParameter("@UserId", loginID)
@@ -50,7 +50,7 @@ namespace EShop
                                                                        from t_Cart c left join T_Products p on c.ProID=p.ProID )as s  
                                                                        where  UserID= @UserId", new SqlParameter("@UserId", loginID))
                                                    );
-                var data = new { Products = products.Rows,PageData = pageData,PageNum = PageNum,PageCount = pagecount,Money = money };
+                var data = new { Products = products.Rows,PageData = pageData,PageNum = PageNum,PageCount = pagecount,Money = money,a =new test() };
                 string html = CommandHelper.RenderHtml("Front/ShoppingCart.html", data);
                 context.Response.Write(html);
 
@@ -61,11 +61,24 @@ namespace EShop
             //}
         }
 
+        
+        
         public bool IsReusable
         {
             get
             {
                 return false;
+            }
+        }
+    }
+    public class test
+    {
+        public void Delete(long id)
+        {
+            if (id != null)
+            {
+                SqlHelper.ExecuteNonQuery("delete from t_cart where UserID=@UserId and ProId=@ProID"
+                                            , new SqlParameter("@UserID", 1), new SqlParameter("@ProID", id));
             }
         }
     }

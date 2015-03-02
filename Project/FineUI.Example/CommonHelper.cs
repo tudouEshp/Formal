@@ -27,7 +27,7 @@ namespace 土豆购物
             vltEngine.Init();
 
             VelocityContext vltContext = new VelocityContext();
-            vltContext.Put("Model", data);//设置参数，在模板中可以通过$data来引用
+            vltContext.Put("Model", data);//设置参数，在模板中可以通过$Model来引用
             Template vltTemplate = vltEngine.GetTemplate(templatesName);
             System.IO.StringWriter vltWriter = new System.IO.StringWriter();
             vltTemplate.Merge(vltContext, vltWriter);
