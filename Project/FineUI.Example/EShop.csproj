@@ -45,6 +45,9 @@
     <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AjaxPro.2">
+      <HintPath>C:\Users\wenjun.zhang\Desktop\AjaxPro.2.dll</HintPath>
+    </Reference>
     <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\Newtonsoft.Json\Net20\Newtonsoft.Json.dll</HintPath>
@@ -2594,6 +2597,7 @@
     <Content Include="images\男士\20140930163801_81422.jpg" />
     <Content Include="images\男士\3.jpg" />
     <Content Include="js\base.js" />
+    <Content Include="scripts\Common.js" />
     <Content Include="js\gdt.js" />
     <Content Include="js\jquery.js" />
     <Content Include="js\scrollImg.js" />
@@ -2885,8 +2889,12 @@
     <Content Include="scripts\ckeditor\themes\default\theme.js" />
     <Content Include="scripts\ddsmoothmenu.js" />
     <Content Include="scripts\jquery-1.4.2.min.js" />
+    <Content Include="scripts\jquery-ui.js" />
+    <Content Include="scripts\jquery-ui.min.js" />
     <Content Include="scripts\jquery.KinSlideshow-1.2.1.js" />
+    <Content Include="scripts\jquery.ui.core.js" />
     <Content Include="scripts\webtry_roll.js" />
+    <Content Include="ShoppingCart.aspx" />
     <Content Include="templates\Admin\AdminLogin.aspx" />
     <Content Include="templates\Admin\login.aspx" />
     <Content Include="templates\Admin\ProductList.aspx" />
@@ -3004,6 +3012,13 @@
     </Compile>
     <Compile Include="config\ajax.aspx.designer.cs">
       <DependentUpon>ajax.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ShoppingCart.aspx.cs">
+      <DependentUpon>ShoppingCart.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ShoppingCart.aspx.designer.cs">
+      <DependentUpon>ShoppingCart.aspx</DependentUpon>
     </Compile>
     <Compile Include="Special2.ashx.cs">
       <DependentUpon>Special2.ashx</DependentUpon>
