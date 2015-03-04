@@ -75,7 +75,7 @@
 
                                             <td class="bg price">$<%#Eval("Price") %></td>
                                             <td class="qty">
-                                                <input type="text" id="quantity" name="quantity" value="<%#Eval("Quantity") %>" placeholder="<%#Eval("Quantity") %>" onblur="total(this)" onkeyup="onlyNum(this)" /></td>
+                                                <input type="text" id="quantity" name="quantity" value="<%#Eval("Quantity") %>" placeholder="<%#Eval("Quantity") %>" onblur="total(this,<%#Eval("ProID") %>)" onkeyup="onlyNum(this)" /></td>
                                             <td class="bg subtotal">$<%#Convert.ToDecimal( Eval("Price")) * Convert.ToDecimal( Eval("Quantity")) %></td>
                                             <td class="close"><a title="close" class="close" href="#"></a></td>
                                             <td class="edit">
@@ -92,17 +92,6 @@
                                 <td colspan="7" class="cart_but">
                                     <div id="Div1" class="pagination" runat="server">
                                         <asp:Literal runat="server" ID="ltlPage"></asp:Literal>
-                                        <%-- <ul>
-                                              <li class="prev"><span>&#8592;</span></li>
-                                              <li class="curent"><a href="#">1</a></li>
-                                              <li><a href="#">2</a></li>
-                                              <li><a href="#">3</a></li>
-                                              <li><a href="#">4</a></li>
-                                              <li><a href="#">5</a></li>
-                                              <li><span>...</span></li>
-                                              <li><a href="#">100</a></li>
-                                              <li class="next"><a href="#">&#8594;</a></li>
-                                          </ul>--%>
                                     </div>
                                     <button class="update"><span>icon</span>保存购物车</button>
                                 </td>
@@ -122,11 +111,11 @@
                                 <table class="subtotal">
                                     <tr>
                                         <td>商品价格</td>
-                                        <td class="price">$8, 500.00</td>
+                                        <td class="price"><asp:Literal runat="server" ID="ltlPrice"></asp:Literal></td>
                                     </tr>
                                     <tr class="grand_total">
                                         <td>应付价钱</td>
-                                        <td class="price">$6, 500.00</td>
+                                        <td class="price"><asp:Literal runat="server" ID="ltlTotal"></asp:Literal></td>
                                     </tr>
                                 </table>
                                 <span class="zi8"><a href="tjgwc.html">结算</a></span>
@@ -338,16 +327,22 @@
             d.value = d.value.replace(/\D/g, '');
         }
 
-        //计算乘积
-        function total(d) {
+        //计算数量与单价的乘积
+        function total(d,proid) {
             //alert($("#quantity").val());
             // alert(d.value);
             var str = d.parentElement.parentElement.cells[2].innerHTML.substr(1);
             //alert(str);
             var price = str * d.value;
             d.parentElement.parentElement.cells[4].innerHTML = "$" + fmoney(price, 2);
+            submit(d.value,proid);
         }
 
+        function submit(quantity,proid) {
+            EShop.ShoppingCart.Edit(proid, quantity);
+        }
+
+        //计算所有商品的金额
         function fmoney(s, n) {
             n = n > 0 && n <= 20 ? n : 2;
             s = parseFloat((s + "").replace(/[^\d\.-]/g, "")).toFixed(n) + "";
@@ -360,16 +355,6 @@
             return t.split("").reverse().join("") + "." + r;
         }
 
-        function del(proid) {
-            if (confirm("确定将商品移出购物车？" + proid)) {
-                EShop.ShoppingCart.del(proid);
-                alert("删除成功");
-                return true;
-            }
-            else {
-                return false;
-            }
-        }
         function DelProduct(proid, d) {
             if (confirmL("确定将商品移出购物车？", function () {
                 EShop.ShoppingCart.del(proid);
