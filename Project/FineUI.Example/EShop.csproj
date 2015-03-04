@@ -2946,13 +2946,7 @@
     <Compile Include="CheckOut.ashx.cs">
       <DependentUpon>CheckOut.ashx</DependentUpon>
     </Compile>
-    <Compile Include="ShoppingCart.ashx.cs">
-      <DependentUpon>ShoppingCart.ashx</DependentUpon>
-    </Compile>
     <Compile Include="CommonHelper.cs" />
-    <Compile Include="Detials.ashx.cs">
-      <DependentUpon>Detials.ashx</DependentUpon>
-    </Compile>
     <Compile Include="Detials.aspx.cs">
       <DependentUpon>Detials.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -3086,9 +3080,7 @@
     <Content Include="extjs\res\images\Thumbs.db" />
     <Content Include="Captcha\captcha.ashx" />
     <Content Include="Brand.ashx" />
-    <Content Include="Detials.ashx" />
     <Content Include="Electronic.ashx" />
-    <Content Include="ShoppingCart.ashx" />
     <Content Include="CheckOut.ashx" />
     <None Include="extjs_builder\build.bat" />
     <Content Include="images\dzcp\dzcp\9815.36" />
