@@ -18,3 +18,4 @@ E:\Formal\Project\DBUtility\bin\Debug\MySql.Data.dll
 E:\Formal\Project\DBUtility\bin\Debug\System.Data.SQLite.DLL
 E:\Formal\Project\DBUtility\obj\Debug\Maticsoft.DBUtility.dll
 E:\Formal\Project\DBUtility\obj\Debug\Maticsoft.DBUtility.pdb
+E:\Formal\Project\DBUtility\obj\Debug\DBUtility.csprojResolveAssemblyReference.cache
