@@ -27,8 +27,8 @@
 
                 <div class="top-header-right">
                     <ul>
-                        <li><a href="login.html">登录</a><span> </span></li>
-                        <li><a href="zc.html">注册</a></li>
+                        <li><a href="aspx/login.aspx">登录</a><span> </span></li>
+                        <li><a href="aspx/register.html">注册</a></li>
                     </ul>
                 </div>
                 <div class="clear"></div>
