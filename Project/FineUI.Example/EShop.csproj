@@ -2895,6 +2895,7 @@
     <Content Include="scripts\jquery.ui.core.js" />
     <Content Include="scripts\webtry_roll.js" />
     <Content Include="ShoppingCart.aspx" />
+    <Content Include="Special.aspx" />
     <Content Include="templates\Admin\AdminLogin.aspx" />
     <Content Include="templates\Admin\login.aspx" />
     <Content Include="templates\Admin\ProductList.aspx" />
@@ -3013,6 +3014,13 @@
     </Compile>
     <Compile Include="ShoppingCart.aspx.designer.cs">
       <DependentUpon>ShoppingCart.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Special.aspx.cs">
+      <DependentUpon>Special.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Special.aspx.designer.cs">
+      <DependentUpon>Special.aspx</DependentUpon>
     </Compile>
     <Compile Include="Special2.ashx.cs">
       <DependentUpon>Special2.ashx</DependentUpon>

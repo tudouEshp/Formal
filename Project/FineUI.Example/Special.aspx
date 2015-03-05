@@ -19,10 +19,10 @@
                         <ul>
                             <li><a href="index.ashx">首页</a> <span></span></li>
                             <li><a href="male.ashx">男士</a> <span></span></li>
-                            <li><a href="nvshi.html">女生</a> <span></span></li>
-                            <li><a href="dzcp.html">电子产品</a> <span></span></li>
-                            <li><a href="ssp.html">奢饰品</a> <span></span></li>
-                            <li><a href="pinpai.html">品牌</a></li>
+                            <li><a href="Female.ashx">女生</a> <span></span></li>
+                            <li><a href="Electronic.ashx">电子产品</a> <span></span></li>
+                            <li><a href="Luxury.ashx">奢饰品</a> <span></span></li>
+                            <li><a href="Brand.ashx">品牌</a></li>
                             <div class="clear"></div>
                         </ul>
                     </div>
@@ -49,27 +49,19 @@
                 <div class="products">
                     <div class="product-filter">
                         <h1><a href="#"></a></h1>
-                        <div class="product-filter-grids">
+                        <div class="product-filter-grids" runat="server">
                             <div class="col-md-3 product-filter-grid1-brands">
                                 <h3>男士商品</h3>
                                 <ul class="col-md-6 unstyled-list b-list1">
-                                    <li><a href="#">xxxxxxxxx商品</a></li>
-                                    <li><a href="#">xxxxxxxxx商品</a></li>
-                                    <li><a href="#">xxxxxxxxxx商品</a></li>
-                                    <li><a href="#">xxxxxxxxxx商品</a></li>
-                                    <li><a href="#">xxxxxxxxxx商品</a></li>
-                                    <li><a href="#">xxxxxxxxxx商品</a></li>
-                                    <li><a href="#">xxxxxxxxx商品</a></li>
-                                    <li><a href="#">xxxxxxxxxx商品</a></li>
-                                    <li><a href="#">xxxxxxxxx商品</a></li>
+                                    <asp:Repeater runat="server" ID="rptType">
+                                        <ItemTemplate>
+                                            <li><a><%#Eval("CTName") %></a></li>
+                                        </ItemTemplate>
+                                    </asp:Repeater>
+                                    
                                     <div class="clearfix"></div>
                                 </ul>
                                 <ul class="col-md-6 unstyled-list b-list2">
-                                    <li><a href="#">商品</a></li>
-                                    <li><a href="#">商品</a></li>
-                                    <li><a href="#">商品</a></li>
-                                    <li><a href="#">商品</a></li>
-                                    <li><a href="#">商品</a></li>
                                     <div class="clearfix"></div>
                                 </ul>
                                 <div class="clearfix"></div>
@@ -82,26 +74,7 @@
                         <div class="product-filter-grid1-brands-col3">
                             <div class="products-colors">
                                 <h3>商品</h3>
-                                <li><a href="#">shiping ></a></li>
-                                <li><a href="#">shiping</span></a></li>
-                                <li><a href="#">shiping</span></a></li>
-                                <li><a href="#">shiping</span></a></li>
-                                <li><a href="#">shiping</span></a></li>
-                                <li><a href="#">shiping</span></a></li>
-                                <li><a href="#">shiping</span></a></li>
-                                <li><a href="#">shiping</span></a></li>
-                                <li><a href="#">shiping</span></a></li>
-                                <li><a href="#">shiping</span></a></li>
-                                <li><a href="#">shiping</span></a></li>
-                                <li><a href="#">shiping</span></a></li>
-                                <li><a href="#">shiping</span></a></li>
-                                <li><a href="#">shiping</span></a></li>
-                                <li><a href="#">shiping</span></a></li>
-                                <li><a href="#">shiping</span></a></li>
-                                <li><a href="#">shiping</span></a></li>
-                                <li><a href="#">shiping</span></a></li>
-                                <li><a href="#">shiping</span></a></li>
-                                <li><a href="#">shiping</span></a></li>
+
                                 <div class="clearfix"></div>
                             </div>
                         </div>
@@ -110,26 +83,7 @@
                         <div class="product-filter-grid1-brands-col3">
                             <div class="products-colors">
                                 <h3>商品</h3>
-                                <li><a href="#">shiping ></a></li>
-                                <li><a href="#">shiping</span></a></li>
-                                <li><a href="#">shiping</span></a></li>
-                                <li><a href="#">shiping</span></a></li>
-                                <li><a href="#">shiping</span></a></li>
-                                <li><a href="#">shiping</span></a></li>
-                                <li><a href="#">shiping</span></a></li>
-                                <li><a href="#">shiping</span></a></li>
-                                <li><a href="#">shiping</span></a></li>
-                                <li><a href="#">shiping</span></a></li>
-                                <li><a href="#">shiping</span></a></li>
-                                <li><a href="#">shiping</span></a></li>
-                                <li><a href="#">shiping</span></a></li>
-                                <li><a href="#">shiping</span></a></li>
-                                <li><a href="#">shiping</span></a></li>
-                                <li><a href="#">shiping</span></a></li>
-                                <li><a href="#">shiping</span></a></li>
-                                <li><a href="#">shiping</span></a></li>
-                                <li><a href="#">shiping</span></a></li>
-                                <li><a href="#">shiping</span></a></li>
+
                                 <div class="clearfix"></div>
                             </div>
                         </div>
@@ -163,33 +117,14 @@
                     </ItemTemplate>
                 </asp:Repeater>
 
-
-
-                <div class="pagination">
-                    <ul>
-                        <li class="prev"><span>&#8592;</span></li>
-                        <li class="curent"><a href="#">1</a></li>
-                        <li><a href="#">2</a></li>
-                        <li><a href="#">3</a></li>
-                        <li><a href="#">4</a></li>
-                        <li><a href="#">5</a></li>
-                        <li><span>...</span></li>
-                        <li><a href="#">100</a></li>
-                        <li class="next"><a href="#">&#8594;</a></li>
-                    </ul>
-                </div>
             </div>
-
         </div>
 
-
-
-
-        <div class="clear"></div>
+        <div class="clear">
+            <div class="pagination">
+                <asp:Literal runat="server" ID="ltlPage"></asp:Literal>
+            </div>
         </div>
-			</div>
-		</div>
-
 		<div class="footer">
             <div class="wrap">
                 <div class="footer-left">
