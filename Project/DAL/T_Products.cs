@@ -314,7 +314,7 @@ namespace EShop.DAL
 			}
 			else
 			{
-				strSql.Append("order by T.ProID Des");
+				strSql.Append("order by T.ProID Desc");
 			}
 			strSql.Append(")AS Row, T.*  from T_Products T ");
 			if (!string.IsNullOrEmpty(strWhere.Trim()))
