@@ -81,6 +81,9 @@ namespace EShop
         }
         #endregion
 
+
+
+        // 删除购物车商品
         [AjaxPro.AjaxMethod]
         public bool del(int proid)
         {
@@ -88,6 +91,8 @@ namespace EShop
             return true;
         }
 
+
+        // 更改数量
         [AjaxPro.AjaxMethod]
         public bool Edit(int proid,int quantity)
         {

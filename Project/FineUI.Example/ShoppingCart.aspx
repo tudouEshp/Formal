@@ -118,7 +118,7 @@
                                         <td class="price"><asp:Literal runat="server" ID="ltlTotal"></asp:Literal></td>
                                     </tr>
                                 </table>
-                                <span class="zi8"><a href="tjgwc.html">结算</a></span>
+                                <span class="zi8"><a href="CheckOut.aspx">结算</a></span>
                             </div>
                             <!-- .total -->
                         </div>

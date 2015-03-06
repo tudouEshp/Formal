@@ -72,6 +72,7 @@
   <ItemGroup>
     <Content Include="aspx\Register.aspx" />
     <Content Include="aspx\UserEmailCheck.aspx" />
+    <Content Include="CheckOut.aspx" />
     <Content Include="css\bootstrap.css" />
     <Content Include="css\bootstrap2.css" />
     <Content Include="css\dzcp.css" />
@@ -2944,8 +2945,12 @@
       <DependentUpon>captcha.ashx</DependentUpon>
     </Compile>
     <Compile Include="Captcha\CaptchaImage.cs" />
-    <Compile Include="CheckOut.ashx.cs">
-      <DependentUpon>CheckOut.ashx</DependentUpon>
+    <Compile Include="CheckOut.aspx.cs">
+      <DependentUpon>CheckOut.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CheckOut.aspx.designer.cs">
+      <DependentUpon>CheckOut.aspx</DependentUpon>
     </Compile>
     <Compile Include="CommonHelper.cs" />
     <Compile Include="Detials.aspx.cs">
@@ -3089,7 +3094,6 @@
     <Content Include="Captcha\captcha.ashx" />
     <Content Include="Brand.ashx" />
     <Content Include="Electronic.ashx" />
-    <Content Include="CheckOut.ashx" />
     <None Include="extjs_builder\build.bat" />
     <Content Include="images\dzcp\dzcp\9815.36" />
     <Content Include="images\nanshi\nanshi\846.psd" />

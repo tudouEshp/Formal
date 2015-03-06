@@ -46,6 +46,7 @@
     <Compile Include="T_Brand.cs" />
     <Compile Include="T_Cart.cs" />
     <Compile Include="T_CType.cs" />
+    <Compile Include="T_DeliveryAddress.cs" />
     <Compile Include="T_Orders.cs" />
     <Compile Include="T_Products.cs" />
     <Compile Include="T_Type.cs" />
