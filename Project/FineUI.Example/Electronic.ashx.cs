@@ -12,8 +12,10 @@ namespace 土豆购物
     {
         public void ProcessRequest(HttpContext context)
         {
-            context.Response.ContentType = "text/plain";
-            context.Response.Write("Hello World");
+            context.Response.ContentType = "text/html";
+
+            string html = CommandHelper.RenderHtml("Front/Electronic.html", null);
+            context.Response.Write(html);
         }
 
         public bool IsReusable
