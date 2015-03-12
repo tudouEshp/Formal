@@ -60,65 +60,30 @@
 
     <div id="zhong2">
         <ul>
-            <li>
-                <img src="images/dzcp/LOGO/16.jpg" width="150" height="76" class="tu3a" /></li>
-            <li>
-                <img src="images/dzcp/LOGO/3.jpg" width="150" height="76" class="tu3a" /></li>
-            <li>
-                <img src="images/dzcp/LOGO/13.jpg" width="150" height="76" class="tu3a" /></li>
-            <li>
-                <img src="images/dzcp/LOGO/8.jpg" width="150" height="76" class="tu3a" /></li>
-            <li>
-                <img src="images/dzcp/LOGO/2.jpg" width="150" height="76" class="tu3a" /></li>
-            <li>
-                <img src="images/dzcp/LOGO/4.jpg" width="150" height="76" class="tu3a" /></li>
-            <li>
-                <img src="images/dzcp/LOGO/6.jpg" width="150" height="76" class="tu3a" /></li>
-            <li>
-                <img src="images/dzcp/LOGO/10.jpg" width="150" height="76" class="tu3a" /></li>
-            <li>
-                <img src="images/dzcp/LOGO/9.jpg" width="150" height="76" class="tu3a" /></li>
-            <li>
-                <img src="images/lunbo/brand_hot_12.jpg" width="158" height="69" class="tu3a" /></li>
-            <li>
-                <img src="images/lunbo/brand_hot_11.jpg" width="158" height="69" class="tu3a" /></li>
-            <li>
-                <img src="images/dzcp/LOGO/12.jpg" width="150" height="76" class="tu3a" /></li>
-            <li>
-                <img src="images/lunbo/brand_hot_9.jpg" width="158" height="69" class="tu3a" /></li>
-            <li>
-                <img src="images/dzcp/LOGO/5.jpg" width="150" height="76" class="tu3a" /></li>
-            <li>
-                <img src="images/lunbo/brand_hot_13.jpg" width="158" height="69" class="tu3a" /></li>
-            <li>
-                <img src="images/dzcp/LOGO/7.jpg" width="150" height="76" class="tu3a" /></li>
+            #foreach($logo in $Model.logos)
+            <li><img alt="" src="$logo.BraLogo" width="150" height="76" class="tu3a" /></li>
+            #end
+           
         </ul>
 
-
         <!--zhong2-->
-
+        #set($i = 0)
         <div id="zhong3">
-            <div id="tu4">
-                <img src="images/dzcp/dzcp/89453.jpg" width="350" height="350" class="tu4a" />
-                <p class="zi3">Meizu/魅族&nbsp;MX4移动4G版</p>
-                <p class="zi4">超值价：1868.<span class="zi5">00</span>元</p>
-                <p class="zi6">原价：2800元</p>
-                <p class="zi7"><a href="sp.html"><a href="sp.html">立即抢购</a></p>
-            </div>
-            <div id="tu4" class="tu4b">
-                <img src="images/dzcp/dzcp/5163.jpg" width="350" height="350" class="tu4a" />
-                <p class="zi3">Meizu/魅族&nbsp;MX4移动4G版</p>
-                <p class="zi4">超值价：1868.<span class="zi5">00</span>元</p>
-                <p class="zi6">原价：2800元</p>
-                <p class="zi7"><a href="sp.html">立即抢购</p>
-            </div>
-            <div id="tu4" class="tu4b">
-                <img src="images/dzcp/dzcp/5644156.jpg" width="350" height="350" class="tu4a" />
-                <p class="zi3">Meizu/魅族&nbsp;MX4移动4G版</p>
-                <p class="zi4">超值价：1868.<span class="zi5">00</span>元</p>
-                <p class="zi6">原价：2800元</p>
-                <p class="zi7"><a href="sp.html">立即抢购</p>
-            </div>
+            #foreach($ep in $Model.Eps)
+                #if($i == 0)
+                <div id="tu4" >
+                #else
+                <div id="tu4" class="tu4b">
+                #end
+                    <img src="$ep.Img" width="350" height="350" class="tu4a" />
+                    <p class="zi3">$ep.ProName</p>
+                    <p class="zi4">超值价：$ep.Price<span class="zi5"></span>元</p>
+                    <p class="zi6">原价：$ep.Price元</p>
+                    <p class="zi7"><a href="sp.html"><a href="sp.html">立即抢购</a></p>
+                </div>
+                    #set($i = $i +1 )
+                
+            #end
         </div>
         <!--zhong3-->
 
