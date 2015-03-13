@@ -3,6 +3,7 @@ using System.Data;
 using System.Text;
 using System.Data.SqlClient;
 using EShop.DBUtility;//Please add references
+using EShop.Model;
 namespace EShop.DAL
 {
 	/// <summary>
@@ -352,6 +353,8 @@ namespace EShop.DAL
 		}*/
 
 		#endregion  BasicMethod
+
+
 		#region  ExtensionMethod
 
 		#endregion  ExtensionMethod

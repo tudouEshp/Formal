@@ -51,7 +51,7 @@
                         <h1><a href="#"></a></h1>
                         <div class="product-filter-grids" runat="server">
                             <div class="col-md-3 product-filter-grid1-brands">
-                                <h3>男士商品</h3>
+                                <h3><asp:Literal ID="ltlTitle" runat="server" Text="男士商品"></asp:Literal></h3>
                                 <ul class="col-md-6 unstyled-list b-list1">
                                     <asp:Repeater runat="server" ID="rptType">
                                         <ItemTemplate>
@@ -99,8 +99,8 @@
                 <asp:Repeater runat="server" ID="rptProducts">
                     <ItemTemplate>
                         <div class="col-md-3 shop_box">
-                            <a href="sp.html">
-                                <img src="<%#Eval("Img") %>" alt="" width="500" height="311" class="img-responsive" />
+                            <a href="detials.aspx?ProID=<%#Eval("ProID") %>">
+                                <img src="<%#Eval("Img") %>" alt="" width="500" height="311" class="img-responsive" /></a>
 
                                 <div class="shop_desc">
                                     <h3><a href="#"><%#Eval("ProName") %></h3>

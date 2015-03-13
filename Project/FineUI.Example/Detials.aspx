@@ -164,7 +164,7 @@
                         <div class="preview slides_container">
                             <div class="prev_bg">
                                 <a href="images/produkt_slid.png" class="jqzoom" rel='gal1' title="">
-                                    <img src="images/准确广告图/95022.jpg" alt="" width="295" height="295" title="" />
+                                    <asp:Image runat="server" ID="ImgProduct" Width="295" Height="295"/>
                                 </a>
                             </div>
                         </div>

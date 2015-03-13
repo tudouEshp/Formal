@@ -50,6 +50,7 @@ namespace EShop
                 lblPoint.Text = product.SalePoint.ToString();
                 lblDesc.Text = product.Des;
                 lblOldPrice.Text = "$" + product.Price.ToString();
+                ImgProduct.ImageUrl = product.Img;
                 #endregion
             }
         }
