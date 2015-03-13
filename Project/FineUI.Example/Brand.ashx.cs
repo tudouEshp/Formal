@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
+using System.Data;
 
 namespace 土豆购物
 {
@@ -14,7 +15,11 @@ namespace 土豆购物
         public void ProcessRequest(HttpContext context)
         {
             context.Response.ContentType = "text/html";
-            context.Response.Write("Hello World");
+            DataTable hots = SqlHelper.ExecuteDataTable("select top 6 * from T_Products where CTID in (select CTID from T_CType where TID = 5 ) order by ShelveDate");
+            var data = new { hots = hots.Rows };
+
+            string html = CommandHelper.RenderHtml("Front/Brand.html",data);
+            context.Response.Write(html);
         }
 
         public bool IsReusable

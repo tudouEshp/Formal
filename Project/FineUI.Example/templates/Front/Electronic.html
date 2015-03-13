@@ -90,31 +90,29 @@
         <div id="zhong4">
             <div id="zuo">
                 <div class="zs">
-                    <img src="images/dzcp/dzcp/13.jpg" width="100%" height="150" class="tu7" /><span class="zi8">点此选购</span>
+                    <img src="$Model.left1.Img" width="100%" height="150" class="tu7" /><span class="zi8">点此选购</span>
                 </div>
                 <!--zs-->
                 <div class="zx">
 
                     <div id="tu8">
-                        <img src="images/dzcp/dzcp/99516.jpg" width="350" height="350" class="tu8a" />
-                        <span class="zi9 STYLE1 STYLE2"><span class="STYLE3">三星&nbsp;A5&nbsp;全金属机身</span></span><span class="zi10">2599.00</span>
+                        <img src="$Model.left2.Img" width="350" height="350" class="tu8a" />
+                        <span class="zi9 STYLE1 STYLE2"><span class="STYLE3">$Model.left2.ProName</span></span><span class="zi10">$Model.left2.Price</span>
                     </div>
 
 
                     <div id="tu8">
-                        <img src="images/dzcp/dzcp/56415.jpg" width="350" height="350" class="tu8a" />
-                        <span class="zi9 STYLE1 STYLE2"><span class="STYLE3">三星&nbsp;A5&nbsp;全金属机身</span></span><span class="zi10">2599.00</span>
+                        <img src="$Model.left3.Img" width="350" height="350" class="tu8a" />
+                        <span class="zi9 STYLE1 STYLE2"><span class="STYLE3"></span>$Model.left3.ProName</span><span class="zi10">$Model.left3.Price</span>
                     </div>
-
-
                 </div>
                 <!--zx-->
             </div>
             <!--zuo-->
 
             <div class="youa">
-                <img src="images/dzcp/dzcp/5641.jpg" width="99%" height="545" class="tu9" />
-                <span class="zi11 STYLE1 STYLE2"><span class="STYLE3">三星&nbsp;A5&nbsp;全金属机身</span></span><span class="zi10">2599.00</span>
+                <img src="$Model.rightPro.Img" width="99%" height="545" class="tu9" />
+                <span class="zi11 STYLE1 STYLE2"><span class="STYLE3">$Model.rightPro.ProName</span></span><span class="zi10">$Model.rightPro.Price</span>
             </div>
             <!--you-->
 
@@ -122,44 +120,11 @@
         <!--zhong4-->
         <h3 class="zi12">明星产品</h3>
         <div id="zhong5">
-
-
             <ul>
-
-                <li>
-                    <img src="images/dzcp/dzcp/9+634.jpg" class="tu30" /></li>
-                <li>
-                    <img src="images/dzcp/dzcp/9849.jpg" class="tu30" /></li>
-                <li>
-                    <img src="images/dzcp/dzcp/8162.jpg" class="tu30" /></li>
-                <li>
-                    <img src="images/dzcp/dzcp/8941.jpg" class="tu30" /></li>
-                <li>
-                    <img src="images/dzcp/dzcp/20140930162129_71583.jpg" class="tu30" /></li>
-                <li>
-                    <img src="images/dzcp/dzcp/20140930161513_57544.jpg" class="tu30" /></li>
-                <li>
-                    <img src="images/dzcp/dzcp/20140930161832_46904.jpg" class="tu30" /></li>
-                <li>
-                    <img src="images/dzcp/dzcp/20140930162129_71583.jpg" class="tu30" /></li>
-                <li>
-                    <img src="images/dzcp/dzcp/20140930162208_25954.jpg" class="tu30" /></li>
-                <li>
-                    <img src="images/dzcp/dzcp/20140930162314_14875.jpg" class="tu30" /></li>
-                <li>
-                    <img src="images/dzcp/dzcp/20140930162423_40809.jpg" class="tu30" /></li>
-                <li>
-                    <img src="images/dzcp/dzcp/20140930162458_67825.jpg" class="tu30" /></li>
-
-
+                #foreach($hot in $Model.hots)
+                 <li><a href="detials.aspx?ProID=$hot.ProID"><img src="$hot.Img" class="tu30" /></a></li>
+                #end
             </ul>
-
-
-
-
-
-
-
         </div>
         <!--zhong5-->
 
@@ -173,23 +138,14 @@
                     <li>电脑</li>
                     <li>家电</li>
                     <li>数码</li>
-
-
                 </ul>
             </div>
         </div>
         <div id="zuixia">
+
             <div class="tu6">
                 <img src="images/广告图/12.png" width="415" height="105" class="tu14" /></div>
         </div>
-
-
-
-
-
-
-
-
     </div>
     <!--da-->
 </body>
