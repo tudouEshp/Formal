@@ -15,3 +15,8 @@ E:\Formal\Project\FineUI\bin\Debug\FineUI.pdb
 E:\Formal\Project\FineUI\obj\Debug\FineUI.dll
 E:\Formal\Project\FineUI\obj\Debug\FineUI.pdb
 E:\Formal\Project\FineUI\obj\Debug\FineUI.csprojResolveAssemblyReference.cache
+C:\Users\JayZee\Desktop\Formal\Project\FineUI\bin\Debug\FineUI.dll
+C:\Users\JayZee\Desktop\Formal\Project\FineUI\bin\Debug\FineUI.pdb
+C:\Users\JayZee\Desktop\Formal\Project\FineUI\obj\Debug\FineUI.csprojResolveAssemblyReference.cache
+C:\Users\JayZee\Desktop\Formal\Project\FineUI\obj\Debug\FineUI.dll
+C:\Users\JayZee\Desktop\Formal\Project\FineUI\obj\Debug\FineUI.pdb

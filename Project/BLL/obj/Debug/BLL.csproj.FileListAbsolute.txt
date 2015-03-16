@@ -40,3 +40,17 @@ E:\Formal\Project\BLL\bin\Debug\MySql.Data.dll
 E:\Formal\Project\BLL\bin\Debug\DAL.pdb
 E:\Formal\Project\BLL\bin\Debug\Maticsoft.DBUtility.pdb
 E:\Formal\Project\BLL\bin\Debug\Entity.pdb
+C:\Users\JayZee\Desktop\Formal\Project\BLL\bin\Debug\BLL.dll
+C:\Users\JayZee\Desktop\Formal\Project\BLL\bin\Debug\BLL.pdb
+C:\Users\JayZee\Desktop\Formal\Project\BLL\bin\Debug\DAL.dll
+C:\Users\JayZee\Desktop\Formal\Project\BLL\bin\Debug\Entity.dll
+C:\Users\JayZee\Desktop\Formal\Project\BLL\bin\Debug\Maticsoft.Common.dll
+C:\Users\JayZee\Desktop\Formal\Project\BLL\bin\Debug\Maticsoft.DBUtility.dll
+C:\Users\JayZee\Desktop\Formal\Project\BLL\bin\Debug\System.Data.SQLite.dll
+C:\Users\JayZee\Desktop\Formal\Project\BLL\bin\Debug\MySql.Data.dll
+C:\Users\JayZee\Desktop\Formal\Project\BLL\bin\Debug\DAL.pdb
+C:\Users\JayZee\Desktop\Formal\Project\BLL\bin\Debug\Maticsoft.DBUtility.pdb
+C:\Users\JayZee\Desktop\Formal\Project\BLL\bin\Debug\Entity.pdb
+C:\Users\JayZee\Desktop\Formal\Project\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+C:\Users\JayZee\Desktop\Formal\Project\BLL\obj\Debug\BLL.dll
+C:\Users\JayZee\Desktop\Formal\Project\BLL\obj\Debug\BLL.pdb

@@ -55,7 +55,7 @@
                                 <ul class="col-md-6 unstyled-list b-list1">
                                     <asp:Repeater runat="server" ID="rptType">
                                         <ItemTemplate>
-                                            <li><a><%#Eval("CTName") %></a></li>
+                                            <li><a href="#"><%#Eval("CTName") %></a></li>
                                         </ItemTemplate>
                                     </asp:Repeater>
                                     

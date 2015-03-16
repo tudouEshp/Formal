@@ -19,3 +19,10 @@ E:\Formal\Project\DBUtility\bin\Debug\System.Data.SQLite.DLL
 E:\Formal\Project\DBUtility\obj\Debug\Maticsoft.DBUtility.dll
 E:\Formal\Project\DBUtility\obj\Debug\Maticsoft.DBUtility.pdb
 E:\Formal\Project\DBUtility\obj\Debug\DBUtility.csprojResolveAssemblyReference.cache
+C:\Users\JayZee\Desktop\Formal\Project\DBUtility\bin\Debug\Maticsoft.DBUtility.dll
+C:\Users\JayZee\Desktop\Formal\Project\DBUtility\bin\Debug\Maticsoft.DBUtility.pdb
+C:\Users\JayZee\Desktop\Formal\Project\DBUtility\bin\Debug\MySql.Data.dll
+C:\Users\JayZee\Desktop\Formal\Project\DBUtility\bin\Debug\System.Data.SQLite.DLL
+C:\Users\JayZee\Desktop\Formal\Project\DBUtility\obj\Debug\DBUtility.csprojResolveAssemblyReference.cache
+C:\Users\JayZee\Desktop\Formal\Project\DBUtility\obj\Debug\Maticsoft.DBUtility.dll
+C:\Users\JayZee\Desktop\Formal\Project\DBUtility\obj\Debug\Maticsoft.DBUtility.pdb

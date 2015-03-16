@@ -12,3 +12,7 @@ E:\Formal\Project\Entity\bin\Debug\Entity.pdb
 E:\Formal\Project\Entity\obj\Debug\Entity.dll
 E:\Formal\Project\Entity\obj\Debug\Entity.pdb
 E:\Formal\Project\Entity\obj\Debug\Entity.csprojResolveAssemblyReference.cache
+C:\Users\JayZee\Desktop\Formal\Project\Entity\bin\Debug\Entity.dll
+C:\Users\JayZee\Desktop\Formal\Project\Entity\bin\Debug\Entity.pdb
+C:\Users\JayZee\Desktop\Formal\Project\Entity\obj\Debug\Entity.dll
+C:\Users\JayZee\Desktop\Formal\Project\Entity\obj\Debug\Entity.pdb

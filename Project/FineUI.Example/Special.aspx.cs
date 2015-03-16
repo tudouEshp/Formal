@@ -22,6 +22,14 @@ namespace EShop
             }
         }
 
+        public string ctype
+        {
+            get
+            {
+                return Request.QueryString["ctid"];
+            }
+        }
+
         public string  brand
         {
             get
@@ -32,19 +40,28 @@ namespace EShop
         protected void Page_Load(object sender, EventArgs e)
         {
             Bind();
+            if (!string.IsNullOrEmpty(brand))
+            {
+                string BraName = SqlHelper.ExecuteScalar("select BraName from t_brand where BraID = " + brand).ToString();
+                ltlTitle.Text = BraName;
+            }
         }
         protected void Bind()
         {
 
             BLL.T_Products probll = new EShop.BLL.T_Products();
-            string condition = " " ;//查询条件
+            string condition = " status = 0" ;//查询条件
             if (!string.IsNullOrEmpty(type))
             {
-                condition += " CTID in (select CTID from T_CType where TID= " + type + " )";
+                condition += " and  CTID in (select CTID from T_CType where TID= " + type + " )";
             }
             if (!string.IsNullOrEmpty(brand))
             {
-                condition += " BraID = " + brand ;
+                condition += " and BraID = " + brand ;
+            }
+            if (!string.IsNullOrEmpty(ctype))
+            {
+                condition += " and CTID = " + ctype;
             }
             int totalcount = Convert.ToInt32(SqlHelper.ExecuteScalar("select count(1) from t_products where "+ condition));
             int size = 12;
@@ -63,7 +80,7 @@ namespace EShop
             }
             else
             {
-                rptType.DataSource = SqlHelper.ExecuteDataTable("select CTName from T_Products p  left join T_CType c on c.CTID = p.CTID where BraID =" + brand + " group by CTName"); ;
+                rptType.DataSource = SqlHelper.ExecuteDataTable("select c.CTID CTName from T_Products p  left join T_CType c on c.CTID = p.CTID where BraID =" + brand + " group by CTName,c.CTID"); ;
             }
 
             rptProducts.DataBind();
@@ -90,7 +107,7 @@ namespace EShop
                     ltlPage.Text += "<li><a href='special.aspx?tid=" + type + "&bid=" + brand + "&p=" + i + "'>" + i.ToString() + "</a></li>";
                 }
             }
-            if (PageIndex != pagecount)
+            if (PageIndex != pagecount && pagecount != 0)
             {
                 ltlPage.Text += "<li class='next'><a href='special.aspx?tid=" + type + "&bid=" + brand + "&p=" + (PageIndex + 1) + "'>&#8594;</a></li>";
             }

@@ -31,3 +31,14 @@ E:\Formal\Project\DAL\bin\Debug\System.Data.SQLite.dll
 E:\Formal\Project\DAL\bin\Debug\MySql.Data.dll
 E:\Formal\Project\DAL\bin\Debug\Maticsoft.DBUtility.pdb
 E:\Formal\Project\DAL\bin\Debug\Entity.pdb
+C:\Users\JayZee\Desktop\Formal\Project\DAL\bin\Debug\DAL.dll
+C:\Users\JayZee\Desktop\Formal\Project\DAL\bin\Debug\DAL.pdb
+C:\Users\JayZee\Desktop\Formal\Project\DAL\bin\Debug\Entity.dll
+C:\Users\JayZee\Desktop\Formal\Project\DAL\bin\Debug\Maticsoft.DBUtility.dll
+C:\Users\JayZee\Desktop\Formal\Project\DAL\bin\Debug\System.Data.SQLite.dll
+C:\Users\JayZee\Desktop\Formal\Project\DAL\bin\Debug\MySql.Data.dll
+C:\Users\JayZee\Desktop\Formal\Project\DAL\bin\Debug\Maticsoft.DBUtility.pdb
+C:\Users\JayZee\Desktop\Formal\Project\DAL\bin\Debug\Entity.pdb
+C:\Users\JayZee\Desktop\Formal\Project\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\Users\JayZee\Desktop\Formal\Project\DAL\obj\Debug\DAL.dll
+C:\Users\JayZee\Desktop\Formal\Project\DAL\obj\Debug\DAL.pdb
