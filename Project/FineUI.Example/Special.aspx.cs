@@ -50,7 +50,7 @@ namespace EShop
         {
 
             BLL.T_Products probll = new EShop.BLL.T_Products();
-            string condition = " status = 0" ;//查询条件
+            string condition = " state = 0" ;//查询条件
             if (!string.IsNullOrEmpty(type))
             {
                 condition += " and  CTID in (select CTID from T_CType where TID= " + type + " )";
@@ -74,13 +74,13 @@ namespace EShop
             SetPage(pageIndex, PageCount);
             rptProducts.DataSource = probll.GetListByPage(condition, "", (pageIndex - 1) * size + 1, pageIndex * size);
 
-            if (string.IsNullOrEmpty(brand) && !string.IsNullOrEmpty(type))
+            if (string.IsNullOrEmpty(brand) && !string.IsNullOrEmpty(ctype))
             {
                 rptType.DataSource = SqlHelper.ExecuteDataTable("select * from t_ctype where " + condition);
             }
             else
             {
-                rptType.DataSource = SqlHelper.ExecuteDataTable("select c.CTID CTName from T_Products p  left join T_CType c on c.CTID = p.CTID where BraID =" + brand + " group by CTName,c.CTID"); ;
+                rptType.DataSource = SqlHelper.ExecuteDataTable("select c.CTID CTName from T_Products p  left join T_CType c on c.CTID = p.CTID where BraID = '" + brand + "' group by CTName,c.CTID"); ;
             }
 
             rptProducts.DataBind();
