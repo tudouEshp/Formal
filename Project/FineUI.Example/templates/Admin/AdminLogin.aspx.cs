@@ -1,17 +1,45 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using 土豆购物;
+using FineUI.Examples;
+using FineUI;
 
-namespace 土豆购物.templates.Admin
+namespace EShop
 {
-    public partial class AdminLogin : System.Web.UI.Page
+    public partial class AdminLogin : PageBase
     {
         protected void Page_Load(object sender, EventArgs e)
         {
 
+        }
+
+        protected void btnLogin_Click(object sender, EventArgs e)
+        {
+            string name = tbxUserName.Text.Trim();
+            string pwd = tbxPassword.Text.Trim();
+            BLL.t_Admin adminLogic = new BLL.t_Admin();
+            string condition = " account = '" + name + "' and pwd = '" + pwd + "'";
+            DataTable dt = adminLogic.GetList(condition).Tables[0];
+
+            if (dt.Rows.Count == 1 )
+            {
+                
+                Response.Redirect("~/templates/admin/ProductList.aspx");
+            }
+            else if(dt.Rows.Count == 0)
+            {
+                Alert.ShowInTop("用户名或密码错误！", MessageBoxIcon.Error);
+            }
+            else
+            {
+                Alert.ShowInTop("找到多条数据！请联系技术人员", MessageBoxIcon.Error);
+            }
         }
     }
 }
