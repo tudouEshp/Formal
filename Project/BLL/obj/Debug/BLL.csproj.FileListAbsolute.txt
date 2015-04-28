@@ -54,3 +54,17 @@ C:\Users\JayZee\Desktop\Formal\Project\BLL\bin\Debug\Entity.pdb
 C:\Users\JayZee\Desktop\Formal\Project\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
 C:\Users\JayZee\Desktop\Formal\Project\BLL\obj\Debug\BLL.dll
 C:\Users\JayZee\Desktop\Formal\Project\BLL\obj\Debug\BLL.pdb
+D:\GitHub\Formal\Project\BLL\bin\Debug\BLL.dll
+D:\GitHub\Formal\Project\BLL\bin\Debug\BLL.pdb
+D:\GitHub\Formal\Project\BLL\bin\Debug\DAL.dll
+D:\GitHub\Formal\Project\BLL\bin\Debug\Entity.dll
+D:\GitHub\Formal\Project\BLL\bin\Debug\Maticsoft.Common.dll
+D:\GitHub\Formal\Project\BLL\bin\Debug\Maticsoft.DBUtility.dll
+D:\GitHub\Formal\Project\BLL\bin\Debug\System.Data.SQLite.dll
+D:\GitHub\Formal\Project\BLL\bin\Debug\MySql.Data.dll
+D:\GitHub\Formal\Project\BLL\bin\Debug\DAL.pdb
+D:\GitHub\Formal\Project\BLL\bin\Debug\Maticsoft.DBUtility.pdb
+D:\GitHub\Formal\Project\BLL\bin\Debug\Entity.pdb
+D:\GitHub\Formal\Project\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+D:\GitHub\Formal\Project\BLL\obj\Debug\BLL.dll
+D:\GitHub\Formal\Project\BLL\obj\Debug\BLL.pdb

@@ -18,7 +18,6 @@ E:\Formal\Project\DBUtility\bin\Debug\MySql.Data.dll
 E:\Formal\Project\DBUtility\bin\Debug\System.Data.SQLite.DLL
 E:\Formal\Project\DBUtility\obj\Debug\Maticsoft.DBUtility.dll
 E:\Formal\Project\DBUtility\obj\Debug\Maticsoft.DBUtility.pdb
-E:\Formal\Project\DBUtility\obj\Debug\DBUtility.csprojResolveAssemblyReference.cache
 C:\Users\JayZee\Desktop\Formal\Project\DBUtility\bin\Debug\Maticsoft.DBUtility.dll
 C:\Users\JayZee\Desktop\Formal\Project\DBUtility\bin\Debug\Maticsoft.DBUtility.pdb
 C:\Users\JayZee\Desktop\Formal\Project\DBUtility\bin\Debug\MySql.Data.dll
@@ -26,3 +25,11 @@ C:\Users\JayZee\Desktop\Formal\Project\DBUtility\bin\Debug\System.Data.SQLite.DL
 C:\Users\JayZee\Desktop\Formal\Project\DBUtility\obj\Debug\DBUtility.csprojResolveAssemblyReference.cache
 C:\Users\JayZee\Desktop\Formal\Project\DBUtility\obj\Debug\Maticsoft.DBUtility.dll
 C:\Users\JayZee\Desktop\Formal\Project\DBUtility\obj\Debug\Maticsoft.DBUtility.pdb
+E:\Formal\Project\DBUtility\obj\Debug\DBUtility.csprojResolveAssemblyReference.cache
+D:\GitHub\Formal\Project\DBUtility\bin\Debug\Maticsoft.DBUtility.dll
+D:\GitHub\Formal\Project\DBUtility\bin\Debug\Maticsoft.DBUtility.pdb
+D:\GitHub\Formal\Project\DBUtility\bin\Debug\MySql.Data.dll
+D:\GitHub\Formal\Project\DBUtility\bin\Debug\System.Data.SQLite.DLL
+D:\GitHub\Formal\Project\DBUtility\obj\Debug\DBUtility.csprojResolveAssemblyReference.cache
+D:\GitHub\Formal\Project\DBUtility\obj\Debug\Maticsoft.DBUtility.dll
+D:\GitHub\Formal\Project\DBUtility\obj\Debug\Maticsoft.DBUtility.pdb

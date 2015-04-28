@@ -41,6 +41,7 @@
   <ItemGroup>
     <Compile Include="BaseParameter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="T_Admin.cs" />
     <Compile Include="T_Brand.cs" />
     <Compile Include="T_Cart.cs" />
     <Compile Include="T_CType.cs" />
